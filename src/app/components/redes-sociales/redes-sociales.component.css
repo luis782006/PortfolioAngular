@@ -1,0 +1,13 @@
+.redes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.fa{
+    font-size: 30px;
+    color:rgb(194, 194, 197);
+    
+
+}
