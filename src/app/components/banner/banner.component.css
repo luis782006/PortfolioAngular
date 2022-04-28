@@ -1,21 +1,62 @@
 .banner{
-  /*background:url(../../../assets/programación-mitos.jpg) no-repeat center center;*/
+  background:url(../../../assets/programación-mitos.jpg) no-repeat center center;
   width:100%;
-  height:80vh;
+  height:calc(100vh - 100px);
   margin:0px;
   overflow: hidden;
-  object-fit: scale-down;
-  margin-top: 5px;;
-  
+  background-size: cover;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction:row;
 }
+
+
+
+
 .photo-profile{
-  width:60px;
-  height:100vh;
- 
+  background-color:rgba(128, 128, 128, 0.425);
+  width:50%;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items: center;
 }
-.probando{
-  color:blue;
+.content-photo{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
 }
+.content-photo p{
+  font-size: 1.5em;
+  color:white;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: #231D16 1px 2px  5px;
+}
+
+.photo-profile img{
+  width:200px;
+  height:100%;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+.welcome-text{
+  width:50%;
+  height:100%;
+  background-color:rgba(128, 128, 128, 0.425);
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+.welcome-text div{
+  background-color: #231D16;
+  color:white;
+  padding: 30px;
+}
+
 /*@media screen and (max-width: 767px) {
    .banner{
      height:auto;

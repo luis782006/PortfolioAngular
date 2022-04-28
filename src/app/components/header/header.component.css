@@ -1,5 +1,5 @@
 .header{    
-    background-color: #0560aa;
+    background-color: #231d16;
     color: rgb(248, 248, 248);
     margin:0px;
     width:100%;
@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .header h1{
     font-family: 'Raleway', sans-serif;
     display:inline;

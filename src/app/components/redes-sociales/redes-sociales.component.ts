@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, } from '@angular/core';
 import { faFacebook,faTwitter,faYoutube,faGithub } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
@@ -17,6 +17,7 @@ export class RedesSocialesComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
 }

@@ -10,16 +10,12 @@ export class BannerComponent implements OnInit {
   portfolio_pic_Path:string="../../../assets/profile-pic.jpg";
 
   valor:boolean=false;
-  otraVar:string="Hola"
-
-
+  
    constructor() { }
 
   ngOnInit(): void {
     
-    if (window.screen.width<=768){
-      this.valor=true;
-    }
+  
    
   }
 
