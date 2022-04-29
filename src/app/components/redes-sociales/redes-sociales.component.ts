@@ -1,5 +1,5 @@
 import { Component, OnInit, } from '@angular/core';
-import { faFacebook,faTwitter,faYoutube,faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook,faTwitter,faYoutube,faGithub,faLinkedin,} from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-redes-sociales',
@@ -11,6 +11,7 @@ export class RedesSocialesComponent implements OnInit {
   faTwitter= faTwitter;
   faYoutube= faYoutube;
   faGithub= faGithub;
+  faLinkedin=faLinkedin;
 
   
 
