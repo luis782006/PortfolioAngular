@@ -1,4 +1,4 @@
-.banner{
+/* .banner{
   background:url(../../../assets/programación-mitos.jpg) no-repeat center center;
   width:100%;
   height:calc(100vh - 100px);
@@ -9,12 +9,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-direction:row;
+  
 }
-
-
-
-
 .photo-profile{
   background-color:rgba(128, 128, 128, 0.425);
   width:50%;
@@ -37,8 +33,8 @@
   text-shadow: #231D16 1px 2px  5px;
 }
 
-.photo-profile img{
-  width:200px;
+.content-photo img{
+  width:100%;
   height:100%;
   border: 5px solid white;
   border-radius: 50%;
@@ -57,8 +53,9 @@
   padding: 30px;
 }
 
-/*@media screen and (max-width: 767px) {
-   .banner{
-     height:auto;
-     width:100%; 
-   }}*/
+@media screen and (min-width: 576px) {
+  .photo-profile img{
+  width:30%;
+   }
+   
+  } */
