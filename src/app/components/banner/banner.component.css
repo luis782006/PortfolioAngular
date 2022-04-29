@@ -1,5 +1,8 @@
-/* .banner{
-  background:url(../../../assets/programación-mitos.jpg) no-repeat center center;
+
+
+
+ .banner{
+  background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../../../assets/programación-mitos.jpg) no-repeat center center;
   width:100%;
   height:calc(100vh - 100px);
   margin:0px;
@@ -11,6 +14,56 @@
   align-items: center;
   
 }
+.photo-container div img{
+  width: 50%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.photo-container div p{
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: rgb(35, 29, 22) 1px 2px 2px ;
+}
+.photo-container div{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+}
+.text-container{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: row;
+}
+.text-container div{
+  width:80%;
+  background-color: rgb(35, 29, 22);
+  color:white;
+  padding:25px;
+  clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+  
+}
+@media screen and (min-width: 320px) {
+  .banner{
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .photo-container div img{
+    margin-top: 20px;
+  }
+
+  }
+  @media screen and (min-width: 767px) {
+    .banner{
+      flex-direction: row;
+      
+    }
+  }
+/*
 .photo-profile{
   background-color:rgba(128, 128, 128, 0.425);
   width:50%;
