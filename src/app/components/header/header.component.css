@@ -7,6 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
 }
 
 .header h1{
@@ -28,13 +29,14 @@ align-items: center;
             height:40px;
             width:100%;
             margin-top: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 40px;
         }
-                .icon{
-                    color:#0560aa ;
-                    font-size:20px ;
-                }
-}
-@media screen and (min-width: 767px) {
+               
+} 
+ @media screen and (min-width: 767px) {
     .redes{
         display: auto;
     }

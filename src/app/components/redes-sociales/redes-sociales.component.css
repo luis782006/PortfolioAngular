@@ -1,21 +1,27 @@
 .redes{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
+    margin-right: 25px;;
     align-items: center;
     flex-direction: row;
     color:rgb(194, 194, 197);
     font-size: 30px;
     
 }
+.redes div{
+    margin-right: 25px;
+    
+}
 .login{
     font-size:16px;
-     padding:10px;
-     color:rgb(105, 105, 105) ;
-     background-color: #C2C2C5;
+     padding: 10px;
+     color:white;
+     background-color: #231d16;
      border-radius: 5px;
      font-weight:bold;
      
 }
 .login:hover{
-    color:#231D16;
+    color:#231d16; ;
+    background-color: #C2C2C5;
 }
