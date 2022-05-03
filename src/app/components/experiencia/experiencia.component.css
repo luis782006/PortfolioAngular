@@ -1,0 +1,14 @@
+.experiencia-anuncio h1{
+    margin-left: 25px;;
+    margin-top: 10px;
+}
+
+.experiencia{
+    margin: 0px;
+    background-color: #231D16;
+    color:white;
+    padding:25px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}

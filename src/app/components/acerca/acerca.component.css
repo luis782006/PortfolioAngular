@@ -1,0 +1,19 @@
+.acerca{
+    margin:10px 0px;
+    background-color: #231D16;
+    color:white;
+    padding:25px;
+}
+.edicionAcerca{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+       
+}
+
+.acerca span{
+    padding:10px;
+    border: 2px solid white;
+    border-radius:50%;
+    margin-left: 90%;
+}

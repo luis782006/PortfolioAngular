@@ -10,6 +10,8 @@ import { BannerComponent } from './components/banner/banner.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import{ MaterialModule } from './material';
 import { LoginComponent } from './components/login/login.component';
+import { AcercaComponent } from './components/acerca/acerca.component';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { LoginComponent } from './components/login/login.component';
     HeaderComponent,
     RedesSocialesComponent,
     BannerComponent,
-    LoginComponent
+    LoginComponent,
+    AcercaComponent,
+    ExperienciaComponent
   ],
   imports: [
     BrowserModule,

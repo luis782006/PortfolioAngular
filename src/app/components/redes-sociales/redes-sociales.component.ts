@@ -14,12 +14,15 @@ export class RedesSocialesComponent implements OnInit {
   faLinkedin=faLinkedin;
   faBars=faBars;
 
-  
+   
 
   constructor() { }
 
   ngOnInit(): void {
     
+  }
+  openLogin(){
+      console.log("openLogin");
   }
 
 }

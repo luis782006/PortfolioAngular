@@ -40,12 +40,24 @@
   flex-direction: row;
 }
 .text-container div{
-  width:80%;
+  width:100%;
   background-color: rgb(35, 29, 22);
   color:white;
   padding:25px;
   clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
   
+}
+.iconText{
+  padding:10px;
+  margin-left: 50%;;
+  font-size:15px;
+  border: 2px solid white;
+  border-radius:50%;
+}
+.iconPic{
+    padding:10px;
+    border: 2px solid white;
+    border-radius:50%;
 }
 @media screen and (min-width: 320px) {
   .banner{
@@ -54,6 +66,9 @@
   }
   .photo-container div img{
     margin-top: 20px;
+  }
+  .icon-pic{
+    color:#231D16;
   }
 
   }
