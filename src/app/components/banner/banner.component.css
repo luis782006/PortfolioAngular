@@ -18,7 +18,7 @@
   width: 50%;
   object-fit: cover;
   border-radius: 50%;
-  border: 5px solid white;
+  border: 5px solid  #f89729;
 }
 .photo-container div p{
   color: white;
@@ -41,8 +41,9 @@
 }
 .text-container div{
   width:100%;
-  background-color: rgb(35, 29, 22);
-  color:white;
+  background-color: #f89729;
+  font-weight: 600;
+  color:#241E16;
   padding:25px;
   clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
   
@@ -51,13 +52,14 @@
   padding:10px;
   margin-left: 50%;;
   font-size:15px;
-  border: 2px solid white;
-  border-radius:50%;
+  border: 1px solid white;
+  border-radius:25%;
 }
 .iconPic{
     padding:10px;
-    border: 2px solid white;
-    border-radius:50%;
+    font-size:15px;
+    border: 1px solid white;
+    border-radius:25%;
 }
 @media screen and (min-width: 320px) {
   .banner{

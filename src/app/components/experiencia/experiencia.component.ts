@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {faPen, faTrash} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-experiencia',
@@ -6,12 +7,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./experiencia.component.css']
 })
 export class ExperienciaComponent implements OnInit {
-  experienciaLaboral = {
-    "logoEmpresa":"logo-Empresa",
-    "nombreEmpresa":"Nombre Empresa",
-    "descripcionEmpresa":"Descripción Empresa"
-  }
- 
+  faPen=faPen;
+  faTrash=faTrash;
+  miExperiencia:any=[
+    {
+      "logoEmpresa":"logo-Empresa",
+      "nombreEmpresa":"Google",
+      "descripcionEmpresa":"Estuve trabajando con el equipo de Instagram. Haciendo deploy."
+    },
+    {
+      "logoEmpresa":"logo-Empresa",
+      "nombreEmpresa":"Faceboo",
+      "descripcionEmpresa":"Estuve trabajando con el equipo en facebook. Haciendo cosas."
+    },
+    
+  
+   
+  ]
+  
+  
   constructor() { }
 
   ngOnInit(): void {

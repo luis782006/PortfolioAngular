@@ -4,14 +4,22 @@
             <h1>Experiencia</h1>
         </div>
     </div>
-    <div class="row experiencia">
-        <div class="col-sm-12 col-md-4">
-            {{experienciaLaboral.logoEmpresa}}
+    <div *ngFor="let experiencia of miExperiencia" class="row experiencia">
+        <div  class="col-sm-12 col-md-4 logoEmpresa">
+            {{experiencia.logoEmpresa}}
          </div>
          <div class="col-sm-12 col-md-8">
-             <h3>{{experienciaLaboral.nombreEmpresa}}</h3>
-             <p>{{experienciaLaboral.descripcionEmpresa}}</p>
+             <h3>{{experiencia.nombreEmpresa}}</h3>
+             <p>{{experiencia.descripcionEmpresa}}</p>
+            
+                <div>
+                     
+                     <span> <fa-icon [icon]="faTrash" class="icons"></fa-icon></span>
+                     <span> <fa-icon [icon]="faPen" class="icons"></fa-icon></span>
+                </div>
+               
          </div>
+         <hr>
     </div>
    
 </div>

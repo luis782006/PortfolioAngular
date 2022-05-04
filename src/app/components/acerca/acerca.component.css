@@ -3,6 +3,8 @@
     background-color: #231D16;
     color:white;
     padding:25px;
+    border: 5px solid #f89729;
+    border-radius: 10px;
 }
 .edicionAcerca{
     display:flex;
@@ -13,7 +15,9 @@
 
 .acerca span{
     padding:10px;
-    border: 2px solid white;
-    border-radius:50%;
+    font-size:15px;
+    border: 1px solid white;
+    border-radius:25%;
     margin-left: 90%;
 }
+

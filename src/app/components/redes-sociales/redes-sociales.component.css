@@ -15,14 +15,14 @@
 .login{
     font-size:16px;
      padding: 10px;
-     color:white;
-     background-color: #231d16;
+     color:#241E16;
+     background-color: #f89729;
      border-radius: 5px;
      font-weight:bold;
      
 }
 .login:hover{
-    color:#231d16; ;
-    background-color: #C2C2C5;
+    color:#f89729; ;
+    background-color: #786A5B;
     cursor: pointer;
 }

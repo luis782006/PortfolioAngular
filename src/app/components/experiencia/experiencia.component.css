@@ -1,14 +1,33 @@
 .experiencia-anuncio h1{
     margin-left: 25px;;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .experiencia{
     margin: 0px;
+    margin-bottom: 10px;
     background-color: #231D16;
     color:white;
-    padding:25px;
+    padding:20px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border:5px solid #f89729;
+    border-radius: 10px;
+}
+.icons{
+    margin:10px;
+    padding:10px;
+    float:right;
+    font-size:15px;
+    border: 1px solid white;
+    border-radius:25%;
+    
+}
+.logoEmpresa{
     display:flex;
     justify-content:center;
     align-items: center;
 }
+
+
