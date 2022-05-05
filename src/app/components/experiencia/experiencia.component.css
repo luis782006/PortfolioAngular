@@ -3,24 +3,26 @@
     margin-top: 0px;
 }
 
+
 .experiencia{
     margin: 0px;
     margin-bottom: 10px;
-    background-color: #231D16;
-    color:white;
+    background-color: white;
+    color:#231D16;
     padding:20px;
     display:flex;
     justify-content:center;
     align-items: center;
     border:5px solid #f89729;
     border-radius: 10px;
+    box-shadow: #231D16 1px 1px 15px;
 }
 .icons{
     margin:10px;
     padding:10px;
     float:right;
     font-size:15px;
-    border: 1px solid white;
+    border: 1px solid #231D16;
     border-radius:25%;
     
 }
@@ -29,5 +31,12 @@
     justify-content:center;
     align-items: center;
 }
-
+.agregarInfo{
+    float:right;
+    font-size: 12px;
+    padding:0px 5px;
+    color:white;
+    background-color: #231D16;
+    border-radius: 8px;
+}
 
