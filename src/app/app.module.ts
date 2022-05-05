@@ -12,6 +12,7 @@ import{ MaterialModule } from './material';
 import { LoginComponent } from './components/login/login.component';
 import { AcercaComponent } from './components/acerca/acerca.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { EducacionComponent } from './components/educacion/educacion.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
     BannerComponent,
     LoginComponent,
     AcercaComponent,
-    ExperienciaComponent
+    ExperienciaComponent,
+    EducacionComponent
   ],
   imports: [
     BrowserModule,
