@@ -1,7 +1,16 @@
 <div class="container">
     <div class="row">
         <div class="col progreso-anuncio">
-            <h1>Hard & Soft Skills <span><button class="agregarInfo">Agregar habilidades</button></span><span><button class="agregarInfo">Modificar Habilidades</button></span></h1>  
+            <div class="row contenedor-cabeceraHabilidades">
+                <div class="col-sm-12 col-md-6">
+                    <h1>Hard & Soft Skills</h1> 
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <button class="agregarInfo">Agregar habilidades</button>
+                    <button class="agregarInfo">Modificar Habilidades</button>
+                </div>
+                 
+            </div>
         </div>
         <div class="row progreso">
             <div *ngFor="let progreso of progresos">

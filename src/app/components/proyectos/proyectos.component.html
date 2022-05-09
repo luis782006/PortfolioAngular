@@ -1,16 +1,21 @@
 <div class="container">
     <div class="row">
-        <h2>Proyectos</h2>
+        <h2>Proyectos<span><button class="agregarProyecto">Agregar Proyecto</button></span></h2>
     </div>
     <div class="row contenedor-proyectos">
        <div class="proyecto" *ngFor="let proyecto of proyectos">
-            <h3><span>{{proyecto.imagenProyecto}}</span>Proyecto:{{proyecto.nombreProyecto}}</h3>
-            <p>Fecha de creacion:{{proyecto.fechaProyecto}}</p>
-            <p>Descripcion: {{proyecto.descripcionProyecto}}.</p>
-            <div>
-                <span> <fa-icon [icon]="faTrash" class="icons"></fa-icon></span>
-                <span> <fa-icon [icon]="faPen" class="icons"></fa-icon></span>
-           </div>  
+            <div class="col-sm-12 col-md-4 contenedor-imagen">
+                <img src="{{proyecto.imagenProyecto}}" alt="Imagen de Proyecto" id="fotoProyecto">
+            </div>
+           <div class="col-sm-12 col-md-8">
+                <h3>Proyecto:{{proyecto.nombreProyecto}}</h3>
+                <p>Fecha de creacion:{{proyecto.fechaProyecto}}</p>
+                <p>Descripcion: {{proyecto.descripcionProyecto}}.</p>
+                <div>
+                    <span> <fa-icon [icon]="faTrash" class="icons"></fa-icon></span>
+                    <span> <fa-icon [icon]="faPen" class="icons"></fa-icon></span>
+               </div> 
+           </div> 
        </div>
     
     </div>

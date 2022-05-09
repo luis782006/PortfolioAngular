@@ -2,7 +2,11 @@
 :root{
     --primary-color:#241E16;
     --color-letras:#F7CD9C;}
-    
+   
+    body{ 
+        background: url(./assets/patron-diseño.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
 *{
     margin:0;
     padding:0px;

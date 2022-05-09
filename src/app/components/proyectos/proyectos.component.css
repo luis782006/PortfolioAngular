@@ -1,9 +1,26 @@
 .proyecto{ 
     border-radius:25px;
-    box-shadow: #F89729 2px 1px 2px;
+    box-shadow: #F89729 5px 5px 10px;
     margin-bottom: 20px;;
     padding:20px;
+    background-color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.agregarProyecto{
+    float:right;
+    font-size: 12px;
+    padding:0px 5px;
+    color:white;
+    background-color: #231D16;
+    border-radius: 8px;
+}
 
+.contenedor-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .proyecto div{
     float :right;
@@ -16,4 +33,8 @@ float:right;
 font-size:15px;
 border: 1px solid #231D16;
 border-radius:25%;
+}
+#fotoProyecto{
+    width: 40%;
+    height:60%;
 }
