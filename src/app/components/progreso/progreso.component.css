@@ -13,13 +13,13 @@
 .progreso{
     margin: 0px;
     margin-bottom: 10px;
-    background-color: white;
+    background-color: #f89729;
     color:#231D16;
     padding:20px;
     display:flex;
     justify-content:flex-start;
     align-items: center;
-    border:5px solid #f89729;
+    /* border:5px solid #f89729; */
     border-radius: 10px;
     box-shadow: #231D16 1px 1px 15px;
 }
