@@ -11,14 +11,14 @@ export class ExperienciaComponent implements OnInit {
   faTrash=faTrash;
   miExperiencia:any=[
     {
-      "logoEmpresa":"logo-Empresa",
+      "logoEmpresa":"logo",
       "nombreEmpresa":"Google",
-      "descripcionEmpresa":"Estuve trabajando con el equipo de Instagram. Haciendo deploy."
+      "descripcionEmpresa":"Lorem ipsum dolor sit amet. A dolore odit et eligendi tempora nam rerum dolores est nemo consequatur qui enim dignissimos? Sit culpa iusto aut animi deleniti est doloremque odit aut similique corporis At voluptas perspiciatis et quidem accusantium. Eos necessitatibus impedit qui internos commodi et possimus doloremque est magnam necessitatibus! Hic commodi recusandae ut enim harum sit voluptas optio!."
     },
     {
-      "logoEmpresa":"logo-Empresa",
-      "nombreEmpresa":"Faceboo",
-      "descripcionEmpresa":"Estuve trabajando con el equipo en facebook. Haciendo cosas."
+      "logoEmpresa":"logo",
+      "nombreEmpresa":"Facebook",
+      "descripcionEmpresa":"Lorem ipsum dolor sit amet. A dolore odit et eligendi tempora nam rerum dolores est nemo consequatur qui enim dignissimos? Sit culpa iusto aut animi deleniti est doloremque odit aut similique corporis At voluptas perspiciatis et quidem accusantium. Eos necessitatibus impedit qui internos commodi et possimus doloremque est magnam necessitatibus! Hic commodi recusandae ut enim harum sit voluptas optio!"
     },
     
   

@@ -2,7 +2,13 @@
     margin-left: 25px;;
     margin-top: 0px;
 }
-
+.contenedor-educacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
 .educacion{
     margin: 0px;
     margin-bottom: 10px;
@@ -12,9 +18,10 @@
     display:flex;
     justify-content:center;
     align-items: center;
-    border:5px solid #f89729;
+    /* border:5px solid #f89729; */
     border-radius: 10px;
-    box-shadow: #231D16 1px 1px 15px;
+    box-shadow: #f89729 2px 2px 2px;
+    /* box-shadow: #231D16 1px 1px 15px; */
 }
 .icons{
     margin:10px;

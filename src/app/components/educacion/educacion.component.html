@@ -4,18 +4,20 @@
             <h1>Educacion <span><button class="agregarInfo">Agregar Experiencia</button></span></h1>
         </div>
     </div>
-    <div *ngFor="let educacion of miEducacion" class="row educacion">
-        <div  class="col-sm-12 col-md-4 logoInstituto">
-            {{educacion.logoInstituto}}
-         </div>
-         <div class="col-sm-12 col-md-8">
-             <h3>{{educacion.nombreInstituto}}</h3>
-             <p>{{educacion.descripcionInstituto}}</p>            
-                <div>
-                     <span> <fa-icon [icon]="faTrash" class="icons"></fa-icon></span>
-                     <span> <fa-icon [icon]="faPen" class="icons"></fa-icon></span>
-                </div>             
-         </div>
-         <hr>
+    <div class="row contenedor-educacion">
+        <div *ngFor="let educacion of miEducacion" class="row educacion">
+            <div  class="col-sm-12 col-md-4 logoInstituto">
+                {{educacion.logoInstituto}}
+             </div>
+             <div class="col-sm-12 col-md-8">
+                 <h3>{{educacion.nombreInstituto}}</h3>
+                 <p>{{educacion.descripcionInstituto}}</p>            
+                    <div>
+                         <span> <fa-icon [icon]="faTrash" class="icons"></fa-icon></span>
+                         <span> <fa-icon [icon]="faPen" class="icons"></fa-icon></span>
+                    </div>             
+             </div>
+             <hr>
+        </div>
     </div>
 </div>

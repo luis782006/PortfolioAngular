@@ -5,22 +5,24 @@
             
         </div>
     </div>
-    <div *ngFor="let experiencia of miExperiencia" class="row experiencia">
-        <div  class="col-sm-12 col-md-4 logoEmpresa">
-            {{experiencia.logoEmpresa}}
-         </div>
-         <div class="col-sm-12 col-md-8">
-             <h3>{{experiencia.nombreEmpresa}}</h3>
-             <p>{{experiencia.descripcionEmpresa}}</p>
-            
-                <div>
-                     
-                     <span> <fa-icon [icon]="faTrash" class="icons"></fa-icon></span>
-                     <span> <fa-icon [icon]="faPen" class="icons"></fa-icon></span>
-                </div>
-               
-         </div>
-         <hr>
+    <div class="row contenedor-experiencia">
+        <div *ngFor="let experiencia of miExperiencia" class="col-md-4  experiencia">
+            <div  class="col-sm-12 col-md-4 logoEmpresa">
+                {{experiencia.logoEmpresa}}
+             </div>
+             <div class="col-sm-12 col-md-8">
+                 <h3>{{experiencia.nombreEmpresa}}</h3>
+                 <p>{{experiencia.descripcionEmpresa}}</p>
+                
+                    <div>
+                         
+                         <span> <fa-icon [icon]="faTrash" class="icons"></fa-icon></span>
+                         <span> <fa-icon [icon]="faPen" class="icons"></fa-icon></span>
+                    </div>
+                   
+             </div>
+             <hr>
+        </div>
     </div>
    
 </div>
