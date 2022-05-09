@@ -1,0 +1,19 @@
+.proyecto{ 
+    border-radius:25px;
+    box-shadow: #F89729 2px 1px 2px;
+    margin-bottom: 20px;;
+    padding:20px;
+
+}
+.proyecto div{
+    float :right;
+    margin-right:25px;
+}
+.icons{
+margin:10px;
+padding:10px;
+float:right;
+font-size:15px;
+border: 1px solid #231D16;
+border-radius:25%;
+}
