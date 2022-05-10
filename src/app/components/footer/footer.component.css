@@ -1,3 +1,21 @@
 .container{
     background-color:#F89729;
+    
+}
+.footer-redes{
+    display:flex;
+    justify-content: center;
+    
+    color:#231D16;
+    font-size: 1rem;
+}.footer-redes p{
+    margin-top: 10px;;
+    margin-left: 20px;;
+    border-bottom: 2px solid black;
+    padding:10px;
+}
+.contenedor-copyright{
+    display: flex;
+    justify-content:center;
+    padding:20px;
 }
