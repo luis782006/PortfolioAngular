@@ -5,7 +5,10 @@
       </div>
      
         <div class="col redes" >
-          <app-redes-sociales></app-redes-sociales>
+          <app-redes-sociales (visible)="loginVisible($event)" ></app-redes-sociales>
+          <app-login [ngClass]="{'loginVisibleStyle':ventana,'loginNoVisibleStyle':!ventana}" (cerrar)="cerrandoLogin($event)"></app-login>
+          
+          
         </div>
     </div>
 

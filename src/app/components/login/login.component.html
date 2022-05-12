@@ -1,6 +1,23 @@
-<div class="container" [ngClass]="'ventana'">
-    <div class="row">
-        <p>Hola</p>
+<div class="container">
+    <div class="row cabeceraLogin">
+        <h2>Login <span (click)="cerrarLogin()">X</span></h2>
+        <div class="row">
+            <form>
+                <div class="form-group">
+                  <label for="usuario">Usuario</label>
+                  <input type="text" class="form-control" id="usuario" placeholder="Ingrese su nombre">
+                  
+                </div>
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" class="form-control" id="password" placeholder="Ingrese su Password">
+                </div>
+               
+                <button type="submit" class="btnLogin" >Aceptar</button>
+              </form>
+
+        
+        </div>
     </div>
-    <!-- [ngStyle]="{'width.px':ancho,'height.px':alto} -->
+   
 </div>

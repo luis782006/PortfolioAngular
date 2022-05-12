@@ -1,4 +1,4 @@
-import { Component, OnInit,Input } from '@angular/core';
+import { Component, OnInit, Input,Output,EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-login',
@@ -6,18 +6,18 @@ import { Component, OnInit,Input } from '@angular/core';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-  // @Input() ancho:number=0;
-  // @Input() alto:number=0;
+  ventanaVisible:boolean=false;
   
-
+  @Input()
+  ventana: boolean = false;
+  @Output() cerrar=new EventEmitter<boolean>();
 
   constructor() { }
 
   ngOnInit(): void {
   }
-  abrirVentana(){
-    //this.ancho=300;
-    //this.alto=250;
+  cerrarLogin(){
+    this.cerrar.emit(this.ventanaVisible);
   }
 
 }

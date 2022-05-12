@@ -1,5 +1,31 @@
 .container{
+    padding:20px;
+    width:20vw;
+    height:250px;
+    background-color: navajowhite;
+    position:relative;
+    top:10px;
+    left:200px;
+    border-radius: 25px;;
+    color:#241E16;
+    box-shadow: 2px 2px 10px; 
+    background:url(../../../assets/patron-diseño.jpg);
+background-size: cover;
+}
 
-    background-color: gray
-    
+
+.btnLogin{
+    margin-top: 10px;
+    float: right;
+    padding: 5px;;
+    border-radius: 10px;
+    background-color: #241E16;
+    color:burlywood;
+}
+.cabeceraLogin span{
+   float:right; 
+   cursor:pointer;
+   background-color: #241E16;
+   padding: 0px 5px;
+   color:antiquewhite;
 }

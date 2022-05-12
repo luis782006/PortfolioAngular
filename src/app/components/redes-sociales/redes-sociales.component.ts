@@ -1,4 +1,4 @@
-import { Component, OnInit, } from '@angular/core';
+import { Component, OnInit,Output,EventEmitter} from '@angular/core';
 import { faFacebook,faTwitter,faYoutube,faGithub,faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import {faBars} from '@fortawesome/free-solid-svg-icons';
 @Component({
@@ -14,6 +14,9 @@ export class RedesSocialesComponent implements OnInit {
   faLinkedin=faLinkedin;
   faBars=faBars;
 
+  ventanaVisible:boolean=true;
+
+  @Output() visible=new EventEmitter<boolean>();
    
 
   constructor() { }
@@ -21,8 +24,9 @@ export class RedesSocialesComponent implements OnInit {
   ngOnInit(): void {
     
   }
-  openLogin(){
-      console.log("openLogin");
+  onVisible(){
+      this.visible.emit(this.ventanaVisible);
+      
   }
 
 }
