@@ -18,6 +18,8 @@ export class LoginComponent implements OnInit {
   }
   cerrarLogin(){
     this.cerrar.emit(this.ventanaVisible);
+    
   }
+  
 
 }

@@ -6,9 +6,9 @@
      
         <div class="col redes" >
           <app-redes-sociales (visible)="loginVisible($event)" ></app-redes-sociales>
-          <app-login [ngClass]="{'loginVisibleStyle':ventana,'loginNoVisibleStyle':!ventana}" (cerrar)="cerrandoLogin($event)"></app-login>
-          
-          
+          <app-login (cerrar)="cerrandoLogin($event)" *ngIf="ventana"  ></app-login>
+          <!--<app-login [ngClass]="{'loginVisibleStyle':ventana,'loginNoVisibleStyle':!ventana}" (cerrar)="cerrandoLogin($event)"></app-login>
+ -->
         </div>
     </div>
 
