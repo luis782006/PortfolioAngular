@@ -10,7 +10,9 @@ export class LoginComponent implements OnInit {
   
   @Input()
   ventana: boolean = false;
+  
   @Output() cerrar=new EventEmitter<boolean>();
+ 
 
   constructor() { }
 
@@ -20,6 +22,6 @@ export class LoginComponent implements OnInit {
     this.cerrar.emit(this.ventanaVisible);
     
   }
-  
+ 
 
 }

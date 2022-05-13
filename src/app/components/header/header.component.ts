@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
   
   logoName ="My Portfolio";
-   ventana:string="";
+   ventana:boolean=true;
    
   constructor() { }
 
@@ -20,11 +20,12 @@ export class HeaderComponent implements OnInit {
     
   }
   loginVisible(ventanaVisible:boolean){
-    this.ventana=String(ventanaVisible);
+    this.ventana=ventanaVisible;
     //console.log(String(this.ventana));
   } 
   cerrandoLogin(ventanaVisible:boolean){
-      this.ventana=String(ventanaVisible);
-      console.log(this.ventana);
+      this.ventana=ventanaVisible;
+      
   }
+ 
 }
