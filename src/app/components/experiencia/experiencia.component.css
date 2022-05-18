@@ -1,6 +1,7 @@
 .experiencia-anuncio h1{
     margin-left: 25px;;
-    margin-top: 0px;
+    margin-top: 10px;
+    
 }
 .contenedor-experiencia{    
     display: flex;
@@ -40,7 +41,7 @@
     font-size: 12px;
     padding:0px 5px;
     color:white;
-    background-color: #231D16;
+    background-color: #393A3B;
     border-radius: 8px;
 }
 

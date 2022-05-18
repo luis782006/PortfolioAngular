@@ -1,11 +1,12 @@
+
 .acerca{
    
-    margin:10px 0px;
-    background-color: white;
-    color:#231D16;
+    margin:0px;
+    background-color:#E5E5E5;
+    color:#1F2429;
     padding:25px;
-    border: 5px solid #f89729;
-    border-radius: 10px;
+    /* border: 5px solid #f89729; */
+    /* border-radius: 10px; */
     box-shadow: #231D16 1px 1px 15px;
 }
 .edicionAcerca{

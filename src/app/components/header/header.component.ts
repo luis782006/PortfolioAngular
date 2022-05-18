@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
   
   logoName ="My Portfolio";
-   ventana:boolean=true;
+   ventana:boolean=false;
    
   constructor() { }
 
