@@ -13,13 +13,20 @@ export class ExperienciaComponent implements OnInit {
     {
       "logoEmpresa":"logo",
       "nombreEmpresa":"Google",
-      "descripcionEmpresa":"Lorem ipsum dolor sit amet. A dolore odit et eligendi tempora nam rerum dolores est nemo consequatur qui enim dignissimos? Sit culpa iusto aut animi deleniti est doloremque odit aut similique corporis At voluptas perspiciatis et quidem accusantium. Eos necessitatibus impedit qui internos commodi et possimus doloremque est magnam necessitatibus! Hic commodi recusandae ut enim harum sit voluptas optio!."
+      "posicion":"Recepcionista",
+      "descripcionEmpresa":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam minus aperiam recusandae et, temporibus fugiat illum atque quisquam ipsam tempore est at. Laborum quaerat blanditiis incidunt unde neque, vero reprehenderit ipsa voluptas quo assumenda tenetur totam porro velit, nulla dicta, fugiat iusto dolores. Nostrum iusto debitis repellendus amet dicta sapiente! "
     },
     {
       "logoEmpresa":"logo",
       "nombreEmpresa":"Facebook",
-      "descripcionEmpresa":"Lorem ipsum dolor sit amet. A dolore odit et eligendi tempora nam rerum dolores est nemo consequatur qui enim dignissimos? Sit culpa iusto aut animi deleniti est doloremque odit aut similique corporis At voluptas perspiciatis et quidem accusantium. Eos necessitatibus impedit qui internos commodi et possimus doloremque est magnam necessitatibus! Hic commodi recusandae ut enim harum sit voluptas optio!"
-    },
+      "posicion":"Relaciones Publicas",
+      "descripcionEmpresa":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam minus aperiam recusandae et, temporibus fugiat illum atque quisquam ipsam tempore est at. Laborum quaerat blanditiis incidunt unde neque, vero reprehenderit ipsa voluptas quo assumenda tenetur totam porro velit, nulla dicta, fugiat iusto dolores. Nostrum iusto debitis repellendus amet dicta sapiente! "
+    },{
+      "logoEmpresa":"logo",
+      "nombreEmpresa":"Facebook",
+      "posicion":"Relaciones Publicas",
+      "descripcionEmpresa":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam minus aperiam recusandae et, temporibus fugiat illum atque quisquam ipsam tempore est at. Laborum quaerat blanditiis incidunt unde neque, vero reprehenderit ipsa voluptas quo assumenda tenetur totam porro velit, nulla dicta, fugiat iusto dolores. Nostrum iusto debitis repellendus amet dicta sapiente! "
+    }
     
   
    

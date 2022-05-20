@@ -1,26 +1,29 @@
 
+
 .acerca{
    
     margin:0px;
-    background-color:#E5E5E5;
+    background-color:#EBEBEB;
     color:#1F2429;
     padding:25px;
-    /* border: 5px solid #f89729; */
-    /* border-radius: 10px; */
     box-shadow: #231D16 1px 1px 15px;
 }
-.edicionAcerca{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-       
+.userdata{
+    background-color: #EBEBEB;
+    padding: 20px;
+}
+.acercaDescripcion{
+    background-color:#DDDDDF ;
+    float:right;
+    padding: 20px;
 }
 
-.acerca span{
+.acercaDescripcion span{
     padding:10px;
     font-size:15px;
     border: 1px solid #231D16;
     border-radius:25%;
     margin-left: 90%;
 }
+
 
