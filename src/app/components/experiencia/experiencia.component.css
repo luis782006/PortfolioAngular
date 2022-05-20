@@ -6,16 +6,11 @@
 .contenedor-experiencia{    
     display: flex;
     justify-content: center;
-    align-items: center;
-    
-    
-    
+    align-items: center;  
 }
 .textoDescripcion{
     padding: 10px;
     background-color: #EBEBEB;
-   
-    
 }
 .experiencia{
     margin: 0px;
