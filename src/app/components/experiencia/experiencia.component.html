@@ -6,22 +6,22 @@
         </div>
     </div>
     <div class="row contenedor-experiencia" >
-        <div  class="row experiencia" *ngFor="let experiencia of miExperiencia">
+        <div  class="row " *ngFor="let experiencia of miExperiencia let impar=odd;let par=even;" [ngClass]="{experiencia1:par,experiencia2:impar}" >
             
-                <div  class="col-sm-12 col-md-2 logoEmpresa">
-                    {{experiencia.logoEmpresa}}
-                 </div>
-                 <div class="col-sm-12 col-md-10 textoDescripcion">
-                     <h3>{{experiencia.nombreEmpresa}}</h3>
-                     <p>{{experiencia.descripcionEmpresa}}</p>
-                        <div>
-                             
-                             <span> <fa-icon [icon]="faTrash" class="icons"></fa-icon></span>
-                             <span> <fa-icon [icon]="faPen" class="icons"></fa-icon></span>
-                        </div>
-                       
-                
-            </div>
+                     <div  class="col-sm-12 col-md-1 logoEmpresa">
+                        
+                        <div class="contenedorLogo">{{experiencia.logoEmpresa}}</div>
+                     </div>
+                     <div class="col-sm-12 col-md-11" [ngClass]="{textoDescripcion2:par,textoDescripcion1:impar}">
+                         <h3>{{experiencia.nombreEmpresa}}</h3>
+                         <p>{{experiencia.descripcionEmpresa}}</p>
+                            <div>
+                                 
+                                 <span> <fa-icon [icon]="faTrash" class="icons"></fa-icon></span>
+                                 <span> <fa-icon [icon]="faPen" class="icons"></fa-icon></span>
+                            </div>
+                     </div>
+                   
         </div>
     </div>
    
