@@ -1,12 +1,26 @@
+.container{
+    background-color: #EA6309;
+}
+.contenedor-proyectos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.proyecto-anuncio{
+     background-image: url(../../../assets/sun-tornado.svg);
+    background-size: cover;
+    text-align: left;
+    padding-top: 10px;
+    color:white;
+    margin-bottom: 10px;
+}
 .proyecto{ 
-    border-radius:25px;
-    box-shadow: #F89729 5px 5px 10px;
+    max-width: 80%;
     margin-bottom: 20px;;
     padding:20px;
     background-color: white;
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
+    outline: 1px solid #130b06;
 }
 .agregarProyecto{
     float:right;
@@ -37,4 +51,10 @@ border-radius:25%;
 #fotoProyecto{
     width: 40%;
     height:60%;
+}
+/* .textoProyecto{
+    clip-path: polygon(9% 1%, 100% 0%, 100% 100%, 9% 100%, 0% 50%);  
+} */
+.contenedor-textoProyecto {
+    margin-left: 60px;;
 }
