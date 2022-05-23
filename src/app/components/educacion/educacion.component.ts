@@ -19,8 +19,15 @@ export class EducacionComponent implements OnInit {
     {
       "logoInstituto":"logo-Instituto",
       "nombreInstituto":"Oracle",
-      "descripcionInstituto":"Curso de Base de datos."
+      "descripcionInstituto":"Base de datos"
+      
     },
+    {
+      "logoInstituto":"logo-Instituto",
+      "nombreInstituto":"Java",
+      "descripcionInstituto":"Programacion Orientada a Objetos."
+    },
+   
     
   
    

@@ -1,26 +1,64 @@
-.educacion-anuncio h1{
-    margin-left: 25px;;
-    margin-top: 0px;
+ .container{
+     background-color: #EA6309;
+ }
+ .educacion-anuncio{
+    background-image: url(../../../assets/sun-tornado.svg);
+    background-size: cover;
+    text-align: left;
+    padding-top: 10px;
+    color:white;
+    
 }
 .contenedor-educacion{
+    border: 2px solid black;
+    /* height:40vh; */
+    margin: 10px 5px;
+    position: relative;  
+    background-color: aliceblue;  
+    box-shadow: 7px 9px 18px -8px rgba(0,0,0,0.75);
+}
+
+.textoEducacion{
+    padding: 20px;
+}
+.contenedor-edicion{
+    position:absolute;
+    top:75%;
+    left:75%;
+    display:flex;
+}
+.textoEducacion span{
+    margin:0px 5px;
+    padding:10px;
+    font-size:15px;
+    border: 1px solid #231D16;
+    border-radius:25%;
+}
+.row-educacion{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
     
 }
+.logoEducacion{
+    background-color: #F8932D;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+/*
 .educacion{
     margin: 0px;
     margin-bottom: 10px;
-    background-color: white;
+    background-color: rgb(153, 23, 23); 
     color:#231D16;
     padding:20px;
     display:flex;
     justify-content:center;
     align-items: center;
+    background-color: white;
     /* border:5px solid #f89729; */
-    border-radius: 10px;
-    box-shadow: #F89729 5px 5px 10px;
+    /* border-radius: 10px;
+    box-shadow: #F89729 5px 5px 10px; 
   
 }
 .icons{
@@ -36,7 +74,7 @@
     display:flex;
     justify-content:center;
     align-items: center;
-}
+} */
 .agregarInfo{
     float:right;
     font-size: 12px;
