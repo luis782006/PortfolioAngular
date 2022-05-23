@@ -1,6 +1,15 @@
+.progreso-anuncio{
+    margin-top: 10px;;
+    background-image: url(../../../assets/sun-tornado.svg);
+    background-size: cover;
+    text-align: left;
+    padding-top: 10px;
+    color:white;
+}
 .progreso-anuncio h1{
     margin-left: 25px;;
     margin-top: 0px;
+    
 }
 .agregarInfo{
     float:right;
@@ -13,16 +22,14 @@
 .progreso{
     margin: 0px;
     margin-bottom: 10px;
-    background-color: #f89729;
+    background-color: #DDDDDF;
     color:#231D16;
     padding:20px;
     display:flex;
     justify-content:flex-start;
     align-items: center;
-    /* border:5px solid #f89729; */
-    border-radius: 10px;
-    box-shadow: #231D16 1px 1px 15px;
+   
 }
 .progress-bar{
-    background-color:#231D16;
+    background-color:#F8932D;
 }
