@@ -11,7 +11,6 @@
 }
 .contenedor-educacion{
     border: 2px solid black;
-    /* height:40vh; */
     margin: 10px 5px;
     position: relative;  
     background-color: aliceblue;  
@@ -21,12 +20,7 @@
 .textoEducacion{
     padding: 20px;
 }
-.contenedor-edicion{
-    position:absolute;
-    top:75%;
-    left:75%;
-    display:flex;
-}
+
 .textoEducacion span{
     margin:0px 5px;
     padding:10px;
@@ -43,6 +37,14 @@
 .logoEducacion{
     background-color: #F8932D;
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+.agregarInfo{
+    float:right;
+    font-size: 12px;
+    padding:0px 5px;
+    color:white;
+    background-color: #231D16;
+    border-radius: 8px;
 }
 
 /*
@@ -75,11 +77,3 @@
     justify-content:center;
     align-items: center;
 } */
-.agregarInfo{
-    float:right;
-    font-size: 12px;
-    padding:0px 5px;
-    color:white;
-    background-color: #231D16;
-    border-radius: 8px;
-}

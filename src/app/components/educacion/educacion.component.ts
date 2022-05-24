@@ -13,7 +13,7 @@ export class EducacionComponent implements OnInit {
   miEducacion:any=[
     {
       "logoInstituto":"logo-Instituto",
-      "nombreInstituto":"ARGENTINA PROGRAMA",
+      "nombreInstituto":"Next U",
       "descripcionInstituto":"Diplomatura Dev Web."
     },
     {
@@ -21,12 +21,7 @@ export class EducacionComponent implements OnInit {
       "nombreInstituto":"Oracle",
       "descripcionInstituto":"Base de datos"
       
-    },
-    {
-      "logoInstituto":"logo-Instituto",
-      "nombreInstituto":"Java",
-      "descripcionInstituto":"Programacion Orientada a Objetos."
-    },
+    }
    
     
   
