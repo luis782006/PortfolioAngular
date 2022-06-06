@@ -1,3 +1,7 @@
+#Proyecto PortFolio
+
+Poryecto portfolio en desarrollo en aras de sentar las bases aprendidas en el curso de Argentina Programa con el framework Angular. Frontend (en desarrollo) - Backend (aun por desarrollar).
+
 # Portfolio
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
