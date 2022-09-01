@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'portfolio';
+  title = 'AngularPortfolio';
+  @Input() editAcercaVisible:boolean;
+
+  // ngOnInit(){
+  //   setTimeout(() => {console.log("Seccion expirada");
+    
+      
+  //   }, 5000);
+  // }
+
+ 
 }

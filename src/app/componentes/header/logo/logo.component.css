@@ -1,0 +1,21 @@
+ img{
+    background-color:var(--color-cajaP);
+    height: 100px;
+    width:160px;
+    
+    
+}
+@media screen and (max-width:767px){
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div img{
+        height: 100px;
+        width:160px;
+        
+    }
+   
+    
+}
