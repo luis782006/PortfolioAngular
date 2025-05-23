@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "tipo_habilidad": "Frontend Development",
+    "nivel": 90
+  },
+  {
+    "id": 2,
+    "tipo_habilidad": "Backend Development",
+    "nivel": 75
+  },
+  {
+    "id": 3,
+    "tipo_habilidad": "Communication",
+    "nivel": 95
+  }
+]

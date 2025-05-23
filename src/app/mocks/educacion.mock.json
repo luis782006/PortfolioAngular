@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "titulo": "Computer Science Degree",
+    "institucion": "University of Technology",
+    "descripcion": "Graduated with honors.",
+    "photo_url_educacion": "assets/certificadoArgPrograma.jpg"
+  },
+  {
+    "id": 2,
+    "titulo": "Web Development Bootcamp",
+    "institucion": "Online Coding School",
+    "descripcion": "Intensive course on modern web technologies.",
+    "photo_url_educacion": "assets/curso frontend.jpg"
+  }
+]

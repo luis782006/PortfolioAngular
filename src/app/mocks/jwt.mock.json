@@ -1,0 +1,6 @@
+{
+  "token": "mock-jwt-token-string-12345",
+  "type": "Bearer",
+  "nombreUsuario": "mockUser",
+  "authorities": ["ROLE_USER"]
+}

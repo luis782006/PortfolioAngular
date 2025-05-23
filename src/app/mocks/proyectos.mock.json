@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "nombre_proyecto": "E-commerce Platform",
+    "descripcion_proyecto": "A full-featured online shopping website.",
+    "photo_url": "assets/programación-mitos.jpg",
+    "link_url": "https://example.com/ecommerce"
+  },
+  {
+    "id": 2,
+    "nombre_proyecto": "Portfolio Website",
+    "descripcion_proyecto": "Personal portfolio to showcase projects.",
+    "photo_url": "assets/quejas y sugerencias.jpg",
+    "link_url": "https://example.com/portfolio"
+  }
+]

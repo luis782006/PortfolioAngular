@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "nombre_empresa": "Tech Solutions Inc.",
+    "inicio_empresa": "2020-01-15",
+    "fin_empresa": "2023-05-30",
+    "descripcion_empresa": "Developed and maintained web applications.",
+    "photo_url_empresa": "assets/freelance.jpg"
+  },
+  {
+    "id": 2,
+    "nombre_empresa": "Creative Agency LLC",
+    "inicio_empresa": "2018-06-01",
+    "fin_empresa": "2019-12-20",
+    "descripcion_empresa": "Designed user interfaces and marketing materials.",
+    "photo_url_empresa": "assets/gestor-spa.jpg"
+  }
+]

@@ -1,4 +1,5 @@
 //basicos
+//basicos
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -20,7 +21,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 
 //Import necesarios para el crud
-import { HttpClientModule } from '@angular/common/http';
+import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http'; // Asegúrate que HTTP_INTERCEPTORS está importado
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AlifeFileToBase64Module } from 'alife-file-to-base64';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
@@ -35,7 +36,26 @@ import { HomeComponent } from './componentes/home/home.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { SpinnerComponent } from './componentes/spinner/spinner.component';
 
+// Mock API Interceptor
+import { MockHttpInterceptor } from './interceptors/mock-http.interceptor';
+import { environment } from '../environments/environment';
 
+const mockInterceptorProvider = {
+  provide: HTTP_INTERCEPTORS,
+  useClass: MockHttpInterceptor,
+  multi: true
+};
+
+export function getProviders() {
+  const providers = [
+    interceptorProvider // Existing interceptor
+  ];
+  if (environment.useMockApi) {
+    providers.push(mockInterceptorProvider);
+    console.log('Mock API enabled. MockHttpInterceptor provided.');
+  }
+  return providers;
+}
 
 @NgModule({
   declarations: [
@@ -72,10 +92,7 @@ import { SpinnerComponent } from './componentes/spinner/spinner.component';
     NgCircleProgressModule.forRoot({}),
     ToastrModule.forRoot()
   ],
-  providers: [
-  interceptorProvider
-
-  ],
+  providers: getProviders(), // Use the function to get providers
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -3,10 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: true,
+  production: false,
   //api:'https://portfoliolfs.herokuapp.com/',
    api:'http://localhost:8080/',
-
+  useMockApi: true
 
 };
 
